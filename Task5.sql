@@ -11,3 +11,5 @@ from student s
 inner join student_hobby sh on s.id = sh.id_student
 inner join hobby_count hc on sh.id_student = hc.id_student
 order by s.id
+
+/* - тут case не нужен. Case не фильтр - он не убирает строки */

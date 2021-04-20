@@ -9,3 +9,6 @@ and h.risk in (select sum(h.risk)
                inner join student_hobby sh on h.id = sh.id_hobby
                group by sh.id_student)
 order by s.id
+
+/* - "сумма риска всех хобби, которыми он занимается в данный момент, больше 0.9."" Этого нет, есть
+только условие, что риск хобби больше 0.9 */
