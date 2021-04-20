@@ -1,3 +1,4 @@
 select s.name, s.surname, h.name
-from student s, student_hobby sh, hobby h
-where s.id = sh.id_student and sh.id_hobby = h.id
+from student s 
+inner join student_hobby sh on s.id = sh.id_student
+inner join hobby h on sh.id_hobby = h.id
