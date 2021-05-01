@@ -8,3 +8,5 @@ where sh.date_finish is null
 group by s.name, s.surname
 order by h_time desc
 limit 1
+
+/* + но case не нужен, это и так отфильтровано в where */

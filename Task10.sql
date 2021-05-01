@@ -22,3 +22,5 @@ select *
 from Count_St cs
 inner join Count_StWithHobby  csh on cs.course = csh.course
 where cs.course >= csh.count * 0.5
+
+/*  */

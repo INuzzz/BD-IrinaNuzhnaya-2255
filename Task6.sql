@@ -8,3 +8,5 @@ inner join student_hobby sh on s.id = sh.id_student
 where nt.count_hobby >=1
 group by s.n_group
 order by s.n_group
+
+/* - комментарий на паре */
